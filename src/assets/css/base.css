@@ -1,0 +1,97 @@
+*{ margin: 0; padding: 0;}
+body, html{ width: 100%; height: 100%; background: #fbfbfb; overflow-x: hidden}
+#app, .index{ width: 100%; height: 100%;}
+ul li{ list-style: none;}
+.allwindow{ position: absolute; top: 0; left: 0; width: 100%; min-height: 100%; z-index: 300; background: #efefef;}
+button{ outline: none;}
+a{ text-decoration: none; }
+.icolor{ font-size: 22px !important; color: #f4cb08;}
+.fccc{ color: #bda7a7;}
+.clearfix:after{ content: ""; height: 0; display: block; clear: both;}
+.fl{ float: left}
+.fr{ float: right}
+.fzcenter{ text-align: center;}
+.fzright{ text-align: right; }
+.flex-box{ display: flex;}
+.fz26{ font-size: 26px !important;}
+.fz20{ font-size: 20px !important;}
+.fz12{ font-size: 12px !important;}
+.fz14{ font-size: 14px !important;}
+.fz16{ font-size: 16px !important; }
+.tcolor{ color: #fbcb0f !important;}
+.fzcolor{ color: #f60 !important; font-size: 12px;}
+.flexbox{ display: flex; }
+.grow1{ flex-grow: 1;}
+.wauto{ width: 90%; margin: 0 auto;}
+.w100{ width: 100%;}
+.pl5{ padding-left: 5px; }
+.pb5{ padding-bottom: 5px }
+.mtb5{ margin: 5px 0; }
+.mtb10{ margin: 10px 0; }
+.mt5{ margin-top: 5px; }
+.mr5{ margin-right: 5px; }
+.mt10{ margin-top: 10px;}
+.mt20{ margin-top: 20px;}
+.mr10{ margin-right: 10px;}
+.ml10{ margin-left: 10px;}
+.ml20{ margin-left: 20px;}
+.mb10{ margin-bottom: 10px;}
+.mb20{ margin-bottom: 20px; }
+
+.com-border-bottom:after{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #e5e5e5;
+    transform: scale3d(1, .5, 1)
+}
+.com-border-top:after{
+    right: 0;
+    top: 0px;
+    width: 100%;
+    height: 1px;
+    background: #e5e5e5;
+    transform: scale3d(1, .7, 1)
+}
+.com-border-right:after{
+    right: 0;
+    top: -12px;
+    width: 1px;
+    height: 100%;
+    /* background: #e5e5e5; */
+    background: #fff;
+    transform: scale3d(1, .7, 1)
+}
+[class*="com-border-"]{
+    position: relative;
+    box-sizing: border-box;
+}
+[class*="com-border-"]:after{
+    content: "";
+    position: absolute;
+    transform-origin: 0 100%;
+}
+
+.renzheng{
+    /* border: 1px solid green; */
+    color: green;
+}
+.renzheng i{
+    font-size: 12px;
+    margin-right:3px;
+    background: green;
+    color: white;
+}
+.dixian{ position: relative; font-size: 12px; color: #ccc; text-align: center;}
+.dixian:before,
+.dixian:after{ position: absolute; content: ""; width: 100px; height: 1px; background: #ccc;}
+.dixian:before{ top: 9px; left: 0;}
+.dixian:after{ top: 9px; right: 0;}
+.key_in-out { animation: fadeInRight .3s}
+.delay3s{ animation-delay: .3s !important;}
+.delay4s{ animation-delay: .4s !important;}
+.delay5s{ animation-delay: .5s !important;}
+.delay6s{ animation-delay: .6s !important;}
+.delay7s{ animation-delay: .7s !important;}
+.delay8s{ animation-delay: .8s !important;}

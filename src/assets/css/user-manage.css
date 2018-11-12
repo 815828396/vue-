@@ -1,0 +1,83 @@
+.sec-page{
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: #fff;
+}
+.real-head{
+    padding: 10px 0;
+    background: white;
+    box-shadow: 0 2px 5px #ccc;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+}
+.real-search{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    background: #eee;
+}
+.real-input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+/* real-list */
+.real-list{
+    margin-top: 20px;
+}
+.real-list-item{
+    display: flex;
+    padding: 5px 0;
+    margin-top: 5px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.real-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.real-btn-group{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+.real-btn-group span{
+    padding: 5px 10px;
+    font-size: 12px;
+    background: #fbcb0f;
+    margin-left: 10px;
+}
+.real-btn-group .sure{
+    background: #fbcb0f;
+}
+.real-btn-group .cant{
+    background: #ff7c7c;
+}
+.rightFix{
+    width: 50px;
+    height: auto;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+}
+.manage-add,.returnTop{
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #fbcb0f;
+    box-shadow: 0 0 12px #8a8a8a;
+}
